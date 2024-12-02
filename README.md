@@ -54,6 +54,10 @@ Run the `compare_runtime_plot.py` script to visualize runtimes:
 
 `python scripts/compare_runtime.py`
 
+## Example Output
+- The runtime comparison script will print runtimes for each language.
+- The plot will display the results and save as `runtime_comparison.png`.
+
 ## Results
 - C and C++: Near-identical runtimes due to similar compilation processes.
 - Python: Significantly slower, demonstrating the overhead of interpreted languages.

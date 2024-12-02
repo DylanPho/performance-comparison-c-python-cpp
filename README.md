@@ -46,14 +46,14 @@ This project explores runtime differences between C, Python, and C++ by:
 
 ## How to Run
 ### Compare Runtimes
-Run the `compare_runtime.py` script to measure runtimes:
-
-`python scripts/compare_runtime.py`
+1. Run the `compare_runtime.py` script to measure runtimes:
+   ```bash
+   `python scripts/compare_runtime.py`
 
 ### Generate Runtime Plot
-Run the `compare_runtime_plot.py` script to visualize runtimes:
-
-`python scripts/compare_runtime.py`
+2. Run the `compare_runtime_plot.py` script to visualize runtimes:
+   ```bash
+   `python scripts/compare_runtime.py`
 
 ## Example Output
 - The runtime comparison script will print runtimes for each language.

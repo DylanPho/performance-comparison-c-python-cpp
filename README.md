@@ -63,3 +63,6 @@ Run the `compare_runtime_plot.py` script to visualize runtimes:
 - Cross-language integration is effective for combining performance and flexibility.
 - Python is slower but easier to use for high-level tasks.
 - Using `ctypes` is an efficient way to integrate C and C++ with Python.
+
+## License
+This project is licensed under the MIT License.

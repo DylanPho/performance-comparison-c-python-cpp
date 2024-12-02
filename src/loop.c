@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-void perform_loop(int iterations, double seed) {
+// Perform loop function
+double perform_loop(int iterations, double seed) {
     double result = seed;
     for (int i = 0; i < iterations; i++) {
-        result = result + 1;  // Adjusted formula to prevent overflow
+        result += 1.0;  // Increment result
     }
-    printf("Final result after %d iterations: %f\n", iterations, result);
+    // Only return the final result, do not print inside the loop
+    return result;
 }

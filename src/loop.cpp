@@ -1,10 +1,11 @@
 #include <iostream>
-using namespace std;
 
-extern "C" void perform_loop(int iterations, double seed) {
+// Perform loop function
+extern "C" double perform_loop(int iterations, double seed) {
     double result = seed;
     for (int i = 0; i < iterations; i++) {
-        result = result + 1;  // Adjusted formula to prevent overflow
+        result += 1.0;  // Increment result
     }
-    cout << "Final result after " << iterations << " iterations: " << result << endl;
+    // Only return the final result, do not print inside the loop
+    return result;
 }

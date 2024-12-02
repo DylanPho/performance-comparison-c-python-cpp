@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the shared library
-mandelbrot = ctypes.CDLL('../compiled/mandelbrot.so')  # Use .dll for Windows
+mandelbrot = ctypes.CDLL('./compiled/mandelbrot.so')
 
 # Configure the function's arguments and return types
 mandelbrot.mandelbrot.argtypes = [ctypes.c_int, ctypes.c_int, ctypes.POINTER(ctypes.c_int)]

@@ -9,6 +9,7 @@ This project compares the runtime performance of iterative computations in C, Py
 4. [Setup](#setup)
 5. [How to Run](#how-to-run)
 6. [Results](#results)
+7. [License](#license)
 
 ## Overview
 This project explores runtime differences between C, Python, and C++ by:

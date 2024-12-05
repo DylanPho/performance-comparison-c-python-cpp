@@ -27,7 +27,7 @@ def python_loop(iterations, seed):
 
 # Compare runtimes
 def compare_runtimes():
-    iterations = 10000
+    iterations = 1000000000
     seed = 1.00001
     num_runs = 100  # Averaging over 100 runs
 

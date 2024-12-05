@@ -3,7 +3,7 @@ import time
 import math
 
 # Parameters
-iterations = 10000
+iterations = 1000000000
 seed = 1.00001
 
 # Load the C shared library

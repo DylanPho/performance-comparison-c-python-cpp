@@ -14,7 +14,7 @@ def run_big_loop():
     big_loop.perform_loop.argtypes = [ctypes.c_int, ctypes.c_double]
     big_loop.perform_loop.restype = None
 
-    iterations = 10000
+    iterations = 1000000000
     seed = 1.00001
 
     # Time the function
